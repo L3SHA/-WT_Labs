@@ -1,0 +1,22 @@
+.albums-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.albums-element {
+  background: #f05d22;
+  height: 100px;
+  border-radius: 10px;
+  display: flex;
+}
+
+.album-name {
+  margin: auto;
+}
+
+@media(min-width: 640px) {
+  .albums-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}

@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'JetBrains Mono', sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+    background-image: url("../img/background.jpg");
+}
+
+h1 {
+    padding: 0px;
+    margin: 0px;
+}
+
+.block {
+    font-family: Consolas;
+    border-radius: 5px;
+    margin: 100px auto;
+    padding: 5%;
+    background: #FFFFFF;
+    width: 300px;
+    height: 490px;
+    text-align: center;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+
+.buttons {
+    background-color: yellow;
+    text-align: center;
+    border: 1px solid yellow;
+    border-radius: 15px;
+    margin: 15px;
+    color: black;
+    display: block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 85%;
+    text-decoration: none;
+}
+
+
+.input {
+    width: 85%;/*300px*/
+    height: 30px;
+    margin: 10px;
+}
+
+
+.tagline {
+    color: #888888;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 50px;
+}
+
+
+.yandex {
+    color: black;
+}
+
+
+.yandex span:nth-child(1) {color: red; font-family: Goudy Old Style}
+
+
+.text-recomm {
+    color: #AAAAAA;
+    text-align: center;
+}
+
+
+.search {
+    background-color: #FFF;
+    border: 1px solid #DDD;
+    border-radius: 3px;
+    color: #AAA;
+    padding: 20px;
+    margin: 50px auto 0px auto;
+    width: 77%;
+}
+
+
+ul.social-networks {
+    margin: 0; /* Обнуляем значение отступов */
+    padding: 0;
+}
+
+
+ul.social-networks li {
+    display: inline; /* Отображать как строчный элемент */
+    margin: 5px;
+}
+

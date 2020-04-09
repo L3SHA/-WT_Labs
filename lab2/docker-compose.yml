@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  web:
+    image: php:7.3-apache
+    ports:
+      - 80:80
+    volumes:
+      - ~/PhpstormProjects/Yandex_Drive/Lab2:/var/www/html

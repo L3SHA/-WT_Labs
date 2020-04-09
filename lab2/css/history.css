@@ -1,0 +1,22 @@
+.history-table {
+  padding: 0;
+  border: 5px solid #4a423f;
+  border-collapse: collapse;
+  justify-content: center;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+td {
+  padding: 10px;
+  border: 5px solid #4a423f;
+  color: black;
+}
+
+th {
+  color: #f05d22;
+  font-family: Arial;
+  font-size: 25px;
+  padding: 10px;
+  border: 5px solid #4a423f;
+}
