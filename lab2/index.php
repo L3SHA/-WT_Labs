@@ -46,8 +46,12 @@
         echo $style;
     }
 
+   function mb_ucfirst($str){
+     return mb_strtoupper(mb_substr($str, 0 ,1)) . mb_substr($str, 1, NULL);
+   }
+
     function get_handled_string(){
-        if(isset($_POST["search"])){
+        if((isset($_POST["search"]) && ($_POST["search"] !== ""))){
             $str = $_POST["search"];
             $delimiter = ", ";
             $temp_arr = explode($delimiter, $str);
@@ -55,6 +59,7 @@
             foreach ($temp_arr as $key => $value) {
                 $temp_arr[$key] = mb_strtolower($value, "utf8");
             }
+            $temp_arr[0] = mb_ucfirst($temp_arr[0]);
             $temp_arr[0] = str_replace(".", "", $temp_arr[0]);
             $str = implode($delimiter, $temp_arr) . ".";
         }
