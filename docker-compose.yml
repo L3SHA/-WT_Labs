@@ -6,4 +6,4 @@ services:
     ports:
       - 80:80
     volumes:
-      - ~/PhpstormProjects/WT/WT_Labs/lab2:/var/www/html
+      - ./lab2:/var/www/html
