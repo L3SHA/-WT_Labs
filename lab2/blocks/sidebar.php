@@ -6,6 +6,7 @@
             <li id="files"><a class="list-element" href="index.php?page_name=files">Файлы</a></li>
             <li id="albums"><a class="list-element" href="index.php?page_name=albums">Альбомы</a></li>
             <li id="history"><a class="list-element" href="index.php?page_name=history">История</a></li>
+            <li id="calendar"><a class="list-element" href="index.php?page_name=calendar">Календарь</a></li>
             <li id="about"><a class="list-element" href="index.php?page_name=about">О сервисе</a></li>
         </ul>
     </div>
