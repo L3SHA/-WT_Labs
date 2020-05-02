@@ -1,14 +1,14 @@
 <?php
-		$mysqli = new mysqli('db', 'root', 'root', 'calendar');
-		$mysqli->set_charset('UTF-8');
-		$result = $mysqli->query('SELECT * FROM news');
+    $mysqli = new mysqli('db', 'root', 'root', 'calendar');
+    $mysqli->set_charset('UTF-8');
+    $result = $mysqli->query('SELECT * FROM news');
     $dates = array();
     if($result != false)
-		{
-				while($row = $result->fetch_assoc())
-				{
-						array_push($dates, $row['date']);
-				}
+    {
+		    while($row = $result->fetch_assoc())
+		        {
+						    array_push($dates, $row['date']);
+				    }
 				$result->free();
 		}
     if(isset($_GET['date']))
