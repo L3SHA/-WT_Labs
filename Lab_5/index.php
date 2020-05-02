@@ -5,12 +5,12 @@
     $dates = array();
     if($result != false)
     {
-		    while($row = $result->fetch_assoc())
-		        {
-						    array_push($dates, $row['date']);
-				    }
-				$result->free();
-		}
+        while($row = $result->fetch_assoc())
+            {
+                array_push($dates, $row['date']);
+            }
+        $result->free();
+    }
     if(isset($_GET['date']))
     {
         $date = $_GET['date'];
