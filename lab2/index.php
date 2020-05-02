@@ -15,10 +15,8 @@
             <?php include("blocks/header.php");?>
             <?php include("blocks/sidebar.php");?>
             <article class="grid content">
-                <?php get_handled_string();?>
                 <?php get_content_page();?>
             </article>
-            <?php include("blocks/footer.php");?>
         </div>
     </body>
 </html>
