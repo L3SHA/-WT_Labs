@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  web:
+    image: php:7-apache
+    ports:
+      - 80:80
+    volumes:
+      - ./lab2:/var/www/html
