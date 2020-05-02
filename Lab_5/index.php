@@ -49,8 +49,7 @@
                         }
                         else if(in_array(get_str_date($year, $i, $year_arr[$i][$k][$j]), $dates))
                         {
-                        $month_str .= '<td><a href="/?date=' . get_str_date($year, $i, $year_arr[$i][$k][$j]) .'">' . $year_arr[$i][$k][$j] . '</a>';
-
+                            $month_str .= '<td><a href="/?date=' . get_str_date($year, $i, $year_arr[$i][$k][$j]) .'">' . $year_arr[$i][$k][$j] . '</a>';
                         }
                         else if ((($k + 7) % 7 == 6) or (($k + 7) % 7 == 0))
                         {
@@ -60,7 +59,7 @@
                         {
                             $month_str .= '<td>';
                         }
-                        $month_str .= $year_arr[$i][$k][$j] . '</td>';
+                            $month_str .= $year_arr[$i][$k][$j] . '</td>';
                     }
                     else
                     {
