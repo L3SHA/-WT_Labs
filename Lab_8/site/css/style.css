@@ -1,0 +1,21 @@
+#nav{
+    padding-left: 0px;
+}
+
+#nav li{
+    display: inline;
+	margin: 5px;
+	padding: 5px;
+    font-family: Verdana;
+	font-size: 15px;
+    background-color: #F1EEF7;
+    border: 1px solid silver;
+}
+
+#nav li a{
+    text-decoration: none;
+}
+
+#nav li:hover{
+    background-color: #8D93EF;
+}
